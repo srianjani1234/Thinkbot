@@ -73,7 +73,7 @@ const Community = () => {
   }, [user]);
 
   return !loading ?  (
-    <div className="  mt-16 min-h-screen overflow-y-auto flex-1 h-full flex flex-col gap-4 p-6 h-screen overflow-y-auto p-6">
+    <div className="  mt-8 min-h-screen overflow-y-auto flex-1 h-full flex flex-col gap-4 p-6 h-screen overflow-y-auto p-6">
       <h2 className="text-xl font-semibold">🖼️ Community Creations</h2>
 
       {loading ? (

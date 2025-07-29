@@ -41,7 +41,7 @@ const Dashboard = () => {
 
 
   return (
-    <div className='h-screen overflow-y-  mt-16 p-6  min-h-screen overflow-y-auto'>
+    <div className='h-screen overflow-y-  mt-8 p-6  min-h-screen overflow-y-auto'>
       <div className='flex justify-start gap-4 flex-wrap'>
         {/* Total Creations Card */}
         <div className='flex justify-between items-center w-72 p-4 px-6 bg-white rounded-xl border border-gray-200'>
