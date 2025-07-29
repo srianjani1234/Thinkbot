@@ -21,7 +21,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
   if (!isLoaded || !user) return null
 
   return (
-<div className="fixed top-10 left-0 w-60 h-[calc(100vh-4rem)] bg-white border-r border-gray-200 z-40">
+<div className="fixed top-5 left-0 w-60 h-[calc(100vh-4rem)] bg-white border-r border-gray-200 z-40">
       
       <div className='my-7 w-full'>
         <img src={user.imageUrl} alt="user avatar" className='w-13 rounded-full mx-auto' />
@@ -50,7 +50,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
       </div>
 
       {/* 👇 Moved this up from the bottom and styled consistently */}
-      <div className='w-full mt-0 border-t border-gray-200 p-4 px-7 flex items-center justify-between'>
+      <div className='w-  mt-0 border-t border-gray-200 p-4 px-7 flex items-center justify-between'>
         <div onClick={openUserProfile} className='flex gap-2 items-center cursor-pointer'>
           <img src={user.imageUrl} alt="" className='w-8 rounded-full' />
           <div>
